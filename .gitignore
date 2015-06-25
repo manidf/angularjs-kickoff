@@ -1,0 +1,8 @@
+*.sw*
+*~
+bower_components/
+build/
+bin/
+coverage/
+node_modules/
+vendor/

@@ -1,0 +1,9 @@
+<div ng-controller="InterviewCtrl as vm">
+	<h1>Questions</h1>
+
+	<ul>
+		<li ng-repeat="question in vm.questions">
+			Question: {{question.key}}<br/>Answer: {{question.value}}
+		</li>
+	</ul>
+</div>

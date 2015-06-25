@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <title ng-bind="vm.pageTitle"></title>
+	    <meta name="description" content="">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	    <% styles.forEach( function ( file ) { %>
+	    <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
+	    <% scripts.forEach( function ( file ) { %>
+	    <script type="text/javascript" src="<%= file %>"></script><% }); %>
+	    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+      	{ "parsetags": "explicit" }
+    	</script>
+	</head>
+	<body ng-app="ngInterviewPrep" ng-controller="AppCtrl as vm">
+		<div class="container" ui-view="main"></div>
+	</body>
+</html>
