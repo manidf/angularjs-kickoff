@@ -3,6 +3,10 @@
   "name": "angularjs-kickoff",
   "version": "0.0.1",
   "homepage": "",
+	"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"start": "grunt watch"
+  },
   "licenses": {
     "type": "GNU",
     "url": ""

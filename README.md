@@ -17,5 +17,5 @@ $ sudo npm -g install grunt-cli karma bower
 $ npm install
 $ bower install
 $ cp -r bower_components ./vendor
-$ grunt watch
+$ npm start
 ```
